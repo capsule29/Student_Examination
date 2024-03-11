@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.exam_system.mapper.PaperMapper">
+    <resultMap id="PaperResultMap" type="com.example.exam_system.pojo.Paper">
+        <result column="paper_id" property="paperId"></result>
+        <result column="course_id" property="courseId"></result>
+        <result column="test_name" property="testName"></result>
+        <result column="test_type" property="testType"></result>
+        <result column="exam_date" property="examDate"></result>
+        <result column="limit_time" property="limitTime"></result>
+        <result column="radio_number" property="radioNumber"></result>
+        <result column="radio_score" property="radioScore"></result>
+        <result column="mult_select_number" property="multSelectNumber"></result>
+        <result column="mult_select_score" property="multSelectScore"></result>
+        <result column="judge_number" property="judgeNumber"></result>
+        <result column="judge_score" property="judgeScore"></result>
+        <result column="password" property="password"></result>
+        <result column="class_id" property="classId"></result>
+    </resultMap>
+</mapper>

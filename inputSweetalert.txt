@@ -1,0 +1,319 @@
+const { value: formValues } = await this.$swal.fire({
+  title: 'Multiple inputs',
+  html:
+    '<input id="swal-input1" class="swal2-input" placeholder="商品名称">' +
+    '<input id="swal-input2" class="swal2-input" placeholder="商品名称">',
+  focusConfirm: false,
+  preConfirm: () => {
+    return [
+      document.getElementById('swal-input1').value,
+      document.getElementById('swal-input2').value
+    ]
+  }
+})
+
+if (formValues) {
+}
+
+
+
+{
+    "judgeList": [
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 137,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "现实是指相互联系着的实际存在的事物的综合。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 615,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "形成商品价值量的劳动是以复杂劳动为尺度的。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 158,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "质变和量变的区别在于是否出现部分质变。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 404,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "二战后，出现了国家垄断资本主义，所以资本主义的经济性质已经改变。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 250,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "既然实践标准具有相对性，因而认识的正确与否是无法检验的。（ ）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 621,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "商品的价值量由生产商品的社会必要劳动时间决定，商品以价值为基础，按照价值量进行交换，即等价交换。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 592,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "使用价值是商品能够满足人们某种需要的属性，即有用性。商品的使用价值是由它的自然属性决定的。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 499,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "资本主义新变化在于改变资本主义私有制的经济基础。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 507,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "20世纪80年代末期和90年代初期，东欧剧变、苏联解体并不表明社会主义的失败。（）"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "judgeId": 513,
+            "optionA": "对",
+            "optionB": "错",
+            "question": "苏联模式只是特定历史条件下的产物，并不是社会主义的唯一模式。（）"
+        }
+    ],
+    "limitTime": 90,
+    "multSelectList": [
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 100,
+            "optionA": "一点论和重点论的统-",
+            "optionB": "既要全面，又要抓重点",
+            "optionC": "一点论和均衡论的统-",
+            "optionD": "既要全面，又要抓重点",
+            "optionE": "两点论和重点论的统一\n\n",
+            "question": "看问题、办事情都要坚持（）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 375,
+            "optionA": "固定资本",
+            "optionB": "可变资本",
+            "optionC": "流动资本",
+            "optionD": "可变资本",
+            "optionE": "生产资本",
+            "question": "某资本家企业中，制造机器的机器是：（）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 32,
+            "optionA": "未有天地之先，毕竟是先有理　",
+            "optionB": "宇宙便是吾心，吾心即是宇宙",
+            "optionC": "存在就是被感知　　",
+            "optionD": "宇宙便是吾心，吾心即是宇宙",
+            "optionE": "有无相生，难易相成　",
+            "question": "下列选项中属于唯心主义观点的有（　　　　　　　　）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 447,
+            "optionA": "揭示人类社会一般规律基础上展望未来",
+            "optionB": "抛弃旧社会",
+            "optionC": "详尽描述未来社会细节",
+            "optionD": "抛弃旧社会",
+            "optionE": "剖析旧社会阐发新世界特点",
+            "question": "马克思展望未来社会的科学立场和方法（）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 153,
+            "optionA": "人们只能认识事物的外部联系，而不能把握事物的真正本质，因而具有有限性和相对性",
+            "optionB": "每个时代的人们的认识能力总是无限的，因而具有无限性和绝对性",
+            "optionC": "人的认识能力是不断从有限性向无限性的发展过程",
+            "optionD": "每个时代的人们的认识能力总是无限的，因而具有无限性和绝对性",
+            "optionE": "从无限发展的世界来讲人们最终能达到对世界的全面而正确的认识，因而认识能力有无限性和绝对性",
+            "question": "马克思主义认为，人的认识能力是有限性和无限性、绝对性和相对性的统一。对这一命题的理解，正确的有（）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 459,
+            "optionA": "两种不同",
+            "optionB": "两种理想",
+            "optionC": "基本相同",
+            "optionD": "两种理想",
+            "optionE": "相互联接",
+            "question": "“必然王国”与“自由王国”是人类生存和发展的（）的社会状态。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 335,
+            "optionA": "不能揭示出资本主义必然灭亡的客观必然性",
+            "optionB": "对社会主义新制度的描绘，闪烁着诸多天才的火花",
+            "optionC": "没有找到埋葬资本主义的力量",
+            "optionD": "对社会主义新制度的描绘，闪烁着诸多天才的火花",
+            "optionE": "看到了资本主义必然灭亡的命运",
+            "question": "空想社会主义者（）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 111,
+            "optionA": "能动性",
+            "optionB": "历史性",
+            "optionC": "社会性",
+            "optionD": "历史性",
+            "optionE": "客观性 ",
+            "question": "实践客体具有（）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 334,
+            "optionA": "从理论上说可以有暴力革命和非暴力革命两种",
+            "optionB": "是为绝大多数人谋利益的运动",
+            "optionC": "暴力革命是迄今的社会主义实践中主要的基本形式",
+            "optionD": "是为绝大多数人谋利益的运动",
+            "optionE": "只能是暴力革命",
+            "question": "无产阶级革命（）。"
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "multSelectId": 86,
+            "optionA": "新质要素在量上的迅速扩张",
+            "optionB": "质变和量变相互渗透",
+            "optionC": "旧质要素在量上迅速减少",
+            "optionD": "质变和量变相互渗透",
+            "optionE": "事物的根本属性没变，比较次要的性质发生了变化，使事物呈现出阶段性\n\n",
+            "question": "总的量变过程中的部分质变是指（）"
+        }
+    ],
+    "paperId": 1,
+    "radioList": [
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "每个人都是社会历史的主人，都是历史的创造者",
+            "optionB": "人民群众是社会历史的主体，是历史的创造者",
+            "optionC": "英雄人物是社会历史的主人，是历史的创造者",
+            "optionD": "人民群众和英雄人物都是社会历史的主人，他们共同创造了历史",
+            "question": "在历史创造者问题上，马克思主义的基本观点是（）。",
+            "radioId": 354
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "根本动力",
+            "optionB": "“最高意义上的革命力量”",
+            "optionC": "最基本动力",
+            "optionD": "直接动力",
+            "question": "科学技术是推动社会历史发展的（）。",
+            "radioId": 346
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "矛盾可以向自己的对立面转化",
+            "optionB": "矛盾一方克服另一方促使事物发展",
+            "optionC": "矛盾一方的发展可以为另一方的发展提供条件",
+            "optionD": "矛盾双方中每一方的自身矛盾，可以为另一方的发展所利用",
+            "question": "哲学发展的历史表明，各种唯心主义派别之间的差异和矛盾，常常有利于唯物主义的发展，这一事实说明（）。",
+            "radioId": 136
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "发挥主观能动性的表现",
+            "optionB": "重视可能性的表现",
+            "optionC": "忽视可能性的表现",
+            "optionD": "违反事物发展规律的表现",
+            "question": "“帮蝶破茧、拔苗助长”的事例是（）。",
+            "radioId": 125
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "生产绝对过剩的危机",
+            "optionB": "生产过剩的危机",
+            "optionC": "生产不足的危机",
+            "optionD": "生产相对过剩的危机",
+            "question": "资本主义经济危机的实质是（）",
+            "radioId": 553
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "人的需要",
+            "optionB": "生产力",
+            "optionC": "生产关系",
+            "optionD": "科学技术",
+            "question": "人类社会发展和进步的最终决定力量是（）。",
+            "radioId": 324
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "跨国公司形成后的必然结果",
+            "optionB": "垄断发展的必然结果",
+            "optionC": "自由竞争的必然结果",
+            "optionD": "革命的结果",
+            "question": "生产和资本的集中是（）。",
+            "radioId": 408
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "对社会经济发展起负作用",
+            "optionB": "完全符合社会化大生产的客观内在要求",
+            "optionC": "代表了全社会的利益",
+            "optionD": "维护了垄断资产阶级的整体利益",
+            "question": "国家垄断资本主义对国民经济的调节和管理（）。",
+            "radioId": 381
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "无产阶级贫困的积累",
+            "optionB": "资本的原始积累",
+            "optionC": "剩余价值转化为资本",
+            "optionD": "社会财富的积累",
+            "question": "资本积累的本质是指（）。",
+            "radioId": 510
+        },
+        {
+            "answer": "",
+            "courseId": 1,
+            "optionA": "价格规律",
+            "optionB": "价值规律",
+            "optionC": "经济规律",
+            "optionD": "剩余价值规律",
+            "question": "在商品经济条件下，按比例合理分配社会劳动的客观要求，是通过（）的自发作用实现的。",
+            "radioId": 572
+        }
+    ]
+}

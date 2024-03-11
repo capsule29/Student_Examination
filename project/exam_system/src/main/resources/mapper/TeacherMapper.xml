@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.exam_system.mapper.TeacherMapper">
+    <resultMap id="TeacherResultMap" type="com.example.exam_system.pojo.Teacher">
+        <result column="teacher_id" property="uId"></result>
+        <result column="teacher_password" property="teacherPassword"></result>
+        <result column="teacher_name" property="name"></result>
+        <result column="permission" property="permission"></result>
+    </resultMap>
+</mapper>

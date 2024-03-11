@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.exam_system.mapper.JudgeMapper">
+<resultMap id="JudgeResultMap" type="com.example.exam_system.pojo.Judge">
+    <result column="judge_id" property="judgeId"></result>
+    <result column="course_id" property="courseId"></result>
+    <result column="question" property="question"></result>
+    <result column="option_A" property="optionA"></result>
+    <result column="option_B" property="optionB"></result>
+    <result column="answer" property="answer"></result>
+</resultMap>
+</mapper>
